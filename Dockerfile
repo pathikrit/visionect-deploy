@@ -1,2 +1,6 @@
-FROM scratch
-WORKDIR /
+FROM visionect/visionect-server-v3
+ENV DB2_1_PORT_5432_TCP_ADDR=postgres
+ENV DB2_1_PORT_5432_TCP_USER=visionect
+ENV DB2_1_PORT_5432_TCP_PASS=visionect
+ENV DB2_1_PORT_5432_TCP_DB=koala
+ENV REDIS_ADDRESS=redis:6379

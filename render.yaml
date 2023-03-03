@@ -2,9 +2,7 @@ databases:
   - name: postgres_db
     databaseName: koala
     user: visionect
-    password: visionect
     postgresMajorVersion: 12
-    port: 5432
     ipAllowList: []
 
 services:

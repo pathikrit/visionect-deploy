@@ -11,4 +11,5 @@ services:
     ipAllowList: []
 
   - type: web
+    name: vss
     env: docker

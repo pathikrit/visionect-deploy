@@ -13,3 +13,9 @@ services:
   - type: web
     name: vss
     env: docker
+    disk:
+      - name: shm
+        mountPath: /dev/shm
+
+      - name: fuse
+        mountPath: /dev/fuse
